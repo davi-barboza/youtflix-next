@@ -1,0 +1,189 @@
+{
+  "categorias": [
+    {
+      "titulo": "MPB",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "cor": "orange",
+      "link_extra": {
+        "text": "O melhor da bossa nova",
+        "url": "https://www.youtube.com/user/progplataforma"
+      },
+      "videos": [
+        {
+          "titulo": "Eli Soares - Oferta Agradável A Ti | Belo Horizonte ",
+          "url": "https://www.youtube.com/watch?v=07dYxNY7jPk"
+        },
+        {
+          "titulo": "Jorge Camargo - Amor Incondicional",
+          "url": "https://www.youtube.com/watch?v=2VeF0I0jbsA"
+        },
+        {
+          "titulo": "Marcos Almeida - Sê Valente",
+          "url": "https://www.youtube.com/watch?v=QGNsLtOa3Uo"
+        },
+        {
+          "titulo": "Preto no Branco - Ninguem Explica Deus",
+          "url": "https://www.youtube.com/watch?v=LYsaKn8FRhc"
+        },
+        {
+          "titulo": "Gladir Cabral - Abrigo",
+          "url": "https://www.youtube.com/watch?v=VdZlzMIfEjU"
+        },
+        {
+          "titulo": "Nelson Bomilcar - Permanecer",
+          "url": "https://www.youtube.com/watch?v=WYYH6ZyyNXA"
+        },
+        {
+          "titulo": "Glauber Plaça - E por Falar em Línguas",
+          "url": "https://www.youtube.com/watch?v=JXafWUsG00I"
+        },
+        {
+          "titulo": "João Alexandre - Ao Sentir",
+          "url": "https://www.youtube.com/watch?v=RFRnCJm71Uc"
+        }        
+      ]
+    },
+    {
+      "titulo": "Instrumental",
+      "cor": "#00c86f",
+      "link_extra": {
+        "text": "Pra quem curti som de qualidade",
+        "url": "https://www.youtube.com/user/snarkypuppy"
+      },
+      "videos": [
+        {
+          "titulo": "Leo P - Sax",
+          "url": "https://www.youtube.com/watch?v=BARAHLk-8dk"
+        },
+        {
+          "titulo": "Cacau Santos - Chorando Alto",
+          "url": "https://www.youtube.com/watch?v=xnNKUNbdz5Y"
+        },
+        {
+          "titulo": "Antoine Dufour - Mother",
+          "url": "https://www.youtube.com/watch?v=lnAWDqhG9GE"
+        },
+        {
+          "titulo": "Birreli Lagrene - In Marciac",
+          "url": "https://www.youtube.com/watch?v=j7gdebJ8JqE"
+        }, 
+        {
+          "titulo": "Yamandu Costa - Samba pro Rapha",
+          "url": "https://www.youtube.com/watch?v=cq7neOyog7I"
+        }
+      ]
+    },
+    {
+      "titulo": "Worship",
+      "cor": "orange",
+      "link_extra": {
+        "text": "O que há de mais atual no gospel",
+        "url": "https://www.youtube.com/channel/UC8JmlV43Vtjtuhba8VT_FCg"
+      },
+      "videos": [
+        {
+          "titulo": "Central 3 - Não Há Outro Lugar",
+          "url": "https://www.youtube.com/watch?v=-nrEq1KYnJk"
+        },
+        {
+          "titulo": "Julliany Souza - Nome Mais Doce",
+          "url": "https://www.youtube.com/watch?v=oJSGAToeMU4"
+        },
+        {
+          "titulo": "DROPS - Acende o Fogo",
+          "url": "https://www.youtube.com/watch?v=pEn6OShKihY"
+        },
+        {
+          "titulo": "Gabriela Rocha & Paulo Guedes - Ele Vem",
+          "url": "https://www.youtube.com/watch?v=YudXB8MZRTs"
+        }
+      ]
+    },
+    {
+      "titulo": "Coral",
+      "cor": "#00c86f",
+      "link_extra": {
+        "text": "Vozes quem tremem a terra",
+        "url": "https://www.youtube.com/user/PTXofficial"
+      },
+      "videos": [
+        {
+          "titulo": "Pentatonix - Hallelujah",
+          "url": "https://www.youtube.com/watch?v=LRP8d7hhpoQ"
+        },
+        {
+          "titulo": "Pentatonix - Evolution of Music",
+          "url": "https://www.youtube.com/watch?v=lExW80sXsHs"
+        },
+        {
+          "titulo": "Kanye West & Sunday Service Collective",
+          "url": "https://www.youtube.com/watch?v=06xMWNXTeSE"
+        },
+        {
+          "titulo": "Coral Resgate - A Caridade",
+          "url": "https://www.youtube.com/watch?v=to1yrHLqyb8"
+        }
+      ]
+    },
+    {
+      "titulo": "Groove",
+      "cor": "orange",
+      "link_extra": {
+        "text": "Você vai querer dançar",
+        "url": "https://www.youtube.com/user/Elisoul1"
+      },
+      "videos": [
+        {
+          "titulo": "Eli Soares - Os Anjos te Louvam",
+          "url": "https://www.youtube.com/watch?v=Q1kmTITQ6co"
+        },
+        {
+          "titulo": "Eli Soares - Tudo o Que eu Sou",
+          "url": "https://www.youtube.com/watch?v=nc3-2WJAOMQ"
+        },
+        {
+          "titulo": "Juninho Black - Vem",
+          "url": "https://www.youtube.com/watch?v=m_mFfQOnync"
+        },
+        {
+          "titulo": "Juninho Black - Não Pare de Crer",
+          "url": "https://www.youtube.com/watch?v=M9cynwe9F1s"
+        },
+        {
+          "titulo": "Thalles Roberto - Se Liga no Groove",
+          "url": "https://www.youtube.com/watch?v=85oFq4znVY4"
+        }
+      ]
+    },
+    {
+      "titulo": "Rock",
+      "cor": "#00c86f",
+      "link_extra": {
+        "text": "É de pirar a cabeça",
+        "url": "https://www.youtube.com/user/og3oficial"
+      },
+      "videos": [
+        {
+          "titulo": "Oficina G3 - Necessário",
+          "url": "https://www.youtube.com/watch?v=HLiZYADBjQI"
+        },
+        {
+          "titulo": "Oficina G3 - Perfeito Amor",
+          "url": "https://www.youtube.com/watch?v=6FdcuQICvyw"
+        },
+        {
+          "titulo": "Oficina G3 - Ele Vive",
+          "url": "https://www.youtube.com/watch?v=u3H4-EjGXc4"
+        },
+        {
+          "titulo": "A mágica do Aprendizado",
+          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+        },
+        {
+          "titulo": "Oficina G3 - Até Quando",
+          "url": "https://www.youtube.com/watch?v=cMRN0_oyykc"
+        }
+      ]
+    }
+  ]
+}
