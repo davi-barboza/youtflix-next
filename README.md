@@ -1,34 +1,126 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# 🎬 Youflix
 
-First, run the development server:
+Uma plataforma web inspirada na experiência do Netflix, criada para exibir vídeos organizados por categorias com um visual moderno e responsivo.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- [Next.js 10](https://nextjs.org/) – framework React com renderização híbrida
+- [React 17](https://reactjs.org/) – biblioteca para construção de UI
+- [Styled-components](https://styled-components.com/) – CSS-in-JS para estilização dinâmica
+- [Keen Slider](https://keen-slider.io/) – carrossel moderno e leve para vídeos
+- [TypeScript](https://www.typescriptlang.org/) – tipagem estática para JavaScript
+- [Next Images](https://www.npmjs.com/package/next-images) – suporte a imagens no Next.js
+
+---
+
+## 📂 Estrutura da Página Inicial
+
+A home do projeto é composta por:
+
+- `Menu`: barra de navegação superior
+- `BannerMain`: destaque do primeiro vídeo da primeira categoria
+- `Carousel`: lista de vídeos agrupados por categoria
+- `Footer`: rodapé da aplicação
+
+Os dados exibidos na página inicial são carregados a partir do arquivo local `data/dados_iniciais.json`.
+
+### Exemplo de uso:
+
+```tsx
+<BannerMain
+  videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
+  url={dadosIniciais.categorias[0].videos[0].url}
+  videoDescription={"O que é front-end? Trabalhando na área!"}
+/>
+```
+
+---
+
+## 📦 Instalação
+
+1. **Clone o repositório:**
+
+```bash
+git clone https://github.com/seu-usuario/youflix.git
+cd youflix
+```
+
+2. **Instale as dependências:**
+
+```bash
+npm install
+```
+
+3. **Inicie o servidor de desenvolvimento:**
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse `http://localhost:3000` no navegador.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🛠 Scripts disponíveis
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+| Comando         | Descrição                              |
+|----------------|------------------------------------------|
+| `npm run dev`  | Inicia o ambiente de desenvolvimento     |
+| `npm run build`| Gera a versão de produção da aplicação   |
+| `npm start`    | Inicia o servidor em produção            |
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Estrutura de Arquivos (parcial)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+YOUTFLIX-NEXT/
+├── public/
+├── src/
+│   ├── assets/
+│   │   └── img/
+│   │       ├── Logo.png
+│   │       └── LogoInt.png
+│   ├── components/
+│   │   ├── BannerMain/
+│   │   ├── Button/
+│   │   ├── Carousel/
+│   │   ├── Footer/
+│   │   └── Menu/
+│   ├── data/
+│   │   └── dados_iniciais.json
+│   ├── pages/
+│   │   ├── _app.js
+│   │   └── index.js
+│   └── styles/
+│       └── globals.css
+├── .babelrc
+├── .gitignore
+├── next.config.js
+├── package.json
+├── package-lock.json
+└── README.md
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📌 Observações
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Projeto utiliza **Next.js 10**, o que exige Node.js >= 10.13.
+- Ideal para servir como base para projetos de catálogo de mídia, video streaming ou projetos educacionais.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+## 📃 Licença
+
+Esse projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
+---
+
+## 🙋‍♂️ Autor
+
+Desenvolvido por [Davi barboza](https://github.com/davi-barboza).  
+Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/davi-barboza-046b8b345).
